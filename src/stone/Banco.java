@@ -24,7 +24,7 @@ public class Banco {
         System.out.println("_______________________\n");
         
         while(rs.next()){
-            System.out.println(rs.getInt("id") + "-" + rs.getString("nome") + "," + rs.getInt("idade") + "," + rs.getString("cargo"));
+            System.out.println(rs.getInt("id") + "-" + rs.getString("nome") + " , " + rs.getInt("idade") + " anos" + " , " + rs.getString("cargo"));
         }
         System.out.println(""); 
     }
