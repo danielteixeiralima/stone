@@ -5,10 +5,10 @@ import java.sql.*;
 
 public class Conexao {
     
-    String db = "localhost";
-    String user = "root";
-    String pass = "";
-    String url = "jdbc:mysql://localhost:3306/stone";
+    String db = "db4free.net";
+    String user = "user_stone";
+    String pass = "stonestone";
+    String url = "jdbc:mysql://db4free.net:3306/db_stone";
     Connection conexao;
     
     Conexao() throws SQLException{
