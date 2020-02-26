@@ -22,7 +22,7 @@ public class Banco {
         
         System.out.println("TODOS OS FUNCIONÁRIOS");
         System.out.println("_______________________\n");
-        
+         
         while(rs.next()){
             System.out.println(rs.getInt("id") + "-" + rs.getString("nome") + " , " + rs.getInt("idade") + " anos" + " , " + rs.getString("cargo"));
         }
